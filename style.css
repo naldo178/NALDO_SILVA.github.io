@@ -37,8 +37,8 @@ h1 {
     text-align: justify;
     text-transform: capitalize;
     margin-left: 15px;
-    margin-right: 15px;
-    line-height: 1.8;
+    margin-right: 10px;
+    line-height: 1.9px;
 }
 footer {
     background-color: rgb(245, 231, 231);
