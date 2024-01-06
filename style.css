@@ -56,5 +56,43 @@ img {
     box-shadow: 0 0 25px rgba(122, 238, 7, 0.5);
   }
 
+y {
+    text-align: center; 
+    background-color: bisque; 
+    }
+    
+    h1 {
+    display: inline-block; 
+    position: relative; 
+    font: 900 3em/1.2 Rubik, sans-serif; 
+    padding: 0 .2em; 
+    white-space: nowrap; 
+
+    /*outline: solid 1px maroon; */
+    }
+    
+    h1 div {
+    position: absolute; 
+    top: 0; left: 0; 
+    padding: inherit; 
+    font: inherit;
+    border-radius: 25px;
+    white-space: inherit; 
+    background: burlywood; 
+    animation-name: bravo; 
+    animation-duration: 1010ms; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+    align-items: center;
+    }
+
+    
+    @keyframes bravo {
+      from {top: 0px; }
+      to {top: 10px; }
+    }
+    
+
 
   
