@@ -9,6 +9,7 @@
     display: block;
     border-radius: 5px;
     margin-bottom: 100px;
+    text-align: justify;
     
     
 }
@@ -26,18 +27,19 @@ nav{
 
 .texto{
   color: rgb(220, 252, 252);
-  padding-left: 50px;
+  padding-left: 10px;
   padding-right: 5%;
   height: 20px;
   margin-top: 25px;
-  display: block;
+
+  
   
 } 
 
 h1{
-  display: block;
   margin-bottom: auto;
-  font-size: 23px;
+  font-size: 17px;
+  text-align: justify;
   
 }
 
@@ -53,10 +55,8 @@ body{
 @media screen and (max-width: 480px){
   .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
       width: auto;
-  }
-
-  h1{
-      text-align: center;
+  
+    
   }
 
   nav{
