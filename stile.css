@@ -3,15 +3,20 @@
   @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 
-  video {
-    man: 700px;
-    width: 600px;
-    border-radius: 5px;
-    margin-bottom: 100px;
-    text-align: justify;
+ .iframe{
+  
+  
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  border-radius: 10%;
+
+  
+ } 
     
+  
     
-}
+
 nav{
   color: aqua;
   text-align: center;
@@ -73,8 +78,9 @@ footer{
   font-size: 20px;
   margin-top: 2px;
   margin-bottom: 1px;
-  background-color: hsl(175, 68%, 96%);
+  background-color: hsl(69, 89%, 48%);
   border-radius: 10px;
+  color: #2F2325;
 }
 	
 
