@@ -3,16 +3,37 @@
   @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 
- .iframe{
-  
-  
-  display: flex;
-  justify-content: auto;
-  align-items: center;
-  
 
   
- } 
+ 
+  
+
+ 
+
+ div.video{
+ 
+ 
+  background-color: hsl(59, 84%, 64%);
+  margin-bottom: 30px;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 58%;
+  border-radius: 20px;
+
+
+
+}
+div.video > iframe{
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  width: 90%;
+  height: 85%;
+  border-radius: 25px;
+  
+
+}
     
   
     
@@ -32,7 +53,7 @@ nav{
 .texto{
   color: rgb(220, 252, 252);
   padding-left: 10px;
-  padding-right: 5%;
+  padding-right: %;
   height: 20px;
   margin-top: 25px;
 
@@ -80,7 +101,7 @@ footer{
   margin-bottom: 1px;
   background-color: hsl(69, 89%, 48%);
   border-radius: 10px;
-  color: #FF00FF;
+  color: #2F2325;
 }
 	
 
