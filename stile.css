@@ -4,9 +4,8 @@
 
 
   video {
-    man: 700 auto;
+    man: 700px;
     width: 600px;
-    display: block;
     border-radius: 5px;
     margin-bottom: 100px;
     text-align: justify;
