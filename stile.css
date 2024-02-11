@@ -1,108 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+body {
+  height: 610px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #03152e;
+  color: white;
+}
 
-
-
-  
- 
-  
-
- 
-
- div.video{
- 
- 
-  background-color: hsl(59, 84%, 64%);
-  margin-bottom: 30px;
-  margin: 0px -20px 30px -20px;
+span {
+  font-size: 90px;
+  margin: 10px;
   padding: 20px;
-  position: relative;
-  padding-bottom: 58%;
-  border-radius: 20px;
-  margin-top: 25px;
-
-
-}
-div.video > iframe{
-  position: absolute;
-  top: 7%;
-  left: 5%;
-  width: 90%;
-  height: 85%;
-  border-radius: 25px;
-  
-
-}
-    
-  
-    
-
-nav{
-  color: aqua;
-  text-align: center;
-  font-family: 'Lemon', serif;
-  font-size: 30px;
-  padding: 10;
-  margin-top: 30px;
-  background-color: #af4053;
-  border-radius: 25px;
-
+  border-radius: 40px;
 }
 
-.texto{
-  color: rgb(220, 252, 252);
-  padding-left: 10px;
-  padding-right: %;
-  height: 20px;
-  margin-top: 25px;
+#hour, #min, #sec {
+  box-shadow: 0 0 15px 5px black;
 
   
-  
-} 
+}
 
 h1{
-  margin-bottom: auto;
-  font-size: 17px;
-  text-align: justify;
-  
-}
-
-
-body{
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-
-}
-
-
-
-
-@media screen and (max-width: 480px){
-  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-      width: auto;
-  
-    
-  }
-
-  nav{
-      position: static;
-      text-align: center;
-  }
-
-  .lista-beneficios, .imagem-beneficios{
-      width: auto;
-  }
-}
- 
-footer{
   text-align: center;
-  font-size: 15px;
-  margin-top: 2px;
-  margin-bottom: 1px;
-  background-color: hsl(69, 89%, 48%);
-  border-radius: 10px;
-  color: #2F2325;
+  color: chartreuse;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin-top: 25px;
+
 }
-	
+
+
+img{
+  padding-top: 1px;
+  width: 350px;
+  border-left: 10px;
+  display: flex;
+  
+
+}
+
+
+
+@media (max-width: 500px) {
+  span {
+    font-size: 50px;
+    margin: 0;
+  }
+}
+
+
+
+
 
 
